@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,html {
+  background-color: #639;
+  font-family: 'Inter', sans-serif;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+#alert-success, #alert-failed, #alert-success-joinNewsletter{
+  line-height: 5rem;
+  display: none;
+}
+.alert{
+  top:10;
+  margin-top: 0.5rem;
+  height: 3.2rem;
+  max-width: 400px;
+  width:100%;
+  margin: 1rem auto;
+}
+
+svg{
+  width: 1rem !important;
+}
+.parent-svg{
+  display: none;
+}
+
+.form {
+  background-color: white;
+  max-width: 400px;
+  width:100%;
+  padding: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+}
+
+.form--input {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  font-family: 'Inter', sans-serif;
+}
+
+.form--submit {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: #639;
+  border: none;   
+  cursor: pointer; 
+}
+
+.form--marketing {
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.form--marketing > input {
+  margin-right: 10px;
+}
+
+svg{
+  width: 2rem;
+}
+
+span{
+  font-size: 1.1rem;
+  color: #F5F5F5F5;
+}
